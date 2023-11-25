@@ -1,1 +1,2 @@
-grammys-website-analysis/* -linguist-detectable
+*.ipynb linguist-detectable=false
+*.py linguist-detectable=true
