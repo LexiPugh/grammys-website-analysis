@@ -1,1 +1,0 @@
-grammys-website-analysis/* -linguist-detectable
