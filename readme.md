@@ -1,4 +1,4 @@
-# **Starbucks: RFM Analysis on App Purchases**
+# **Grammys: Analyzing Website Data**
 
 **Table of Contents**
 
@@ -7,15 +7,15 @@
 
 # Project Overview
 
-This project was completed in Jupyter Notebook with Python, Pandas, Plotly and NumPy. The project was focused on RFM analysis for Starbucks, RFM standing for recency (how recently a customer made a purchase), frequency (how often a customer made a purchase), and monetary (how much money a customer spent). It mainly focused on frequency and how Starbucks could get customers who use the app to purchase more often. Through analysis, we needed to find out who the marketing team should be targeting and what kind of deals would improve their frequency metrics. A list of tasks that I completed in this project include:
+This project was completed in Jupyter Notebook with Python, Pandas, Plotly and NumPy. The purpose of this project was to analyze the website analytics of the Grammys website vs. the Recording Academy website. They used to be one website but were later split into two and the Grammys want to know if they should keep the websites separate or merge them again. I had to advise them of the best course of action through the calculation of some key metrics and visualizations with Plotly. A list of tasks that I completed in this project include:
 
-- Set up an aggregation dictionary and applied it to the data frame to calculate the frequency and monetary metrics
-- Performed a join to import the recency data into the data frame
-- Performed data cleaning by dropping redundant columns and renaming other columns for clarity
-- Created a function that used a conditional statement to assign frequency grades to customers based on their number of purchases
-- Utilized Plotly to create a bar chart of frequency grades, allowing for easier analysis of grade distribution
-- Provided a data-driven business recommendation on specific deals and promotions Starbucks can do to improve the frequency of customer purchases
+- Split a data frame into two data frames to separate the combined website data and Grammy website data
+- Used a for loop to iterate over a list of data frames and create a new column for page views per session in each one
+- Used a function in combination with a for loop to calculate the bounce rate for each website
+- Used Plotly to make multiple charts that visualized data such as age demographics, page views per session, and visitors over time
+- Provided the Grammys with a data-driven business decision to keep the websites separate as they were shown to be servicing different groups
+- Compared Grammys website data with AMAs website data to check KPI performance against competitors
 
 # Project Deliverable
 
-[Click Here to View the Jupyter Notebook File](https://github.com/LexiPugh/starbucks-rfm-analysis/blob/main/Starbucks.ipynb)
+[Click Here to View the Jupyter Notebook File](https://github.com/LexiPugh/grammys-website-analysis/blob/main/Grammys.ipynb)
